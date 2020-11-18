@@ -150,7 +150,7 @@ endchoice
 
 config BOOT_SIGNATURE_KEY_FILE
 	string "PEM key file"
-	default "root-rsa-2048.pem"
+	default ""
 	help
 	  You can use either absolute or relative path.
 	  In case relative path is used, the build system assumes that it starts
